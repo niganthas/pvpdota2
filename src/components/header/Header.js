@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router'
 
 import './header.css';
 
@@ -21,8 +21,8 @@ export default class Header extends Component {
                     </div>
                     <nav className="top-nav">
                         <ul>
-                            <li><NavLink to="/">Dashboard</NavLink></li> 
-                            <li><a href="#">Matches</a></li> 
+                            <li><Link to="/">Dashboard</Link></li> 
+                            <li><Link to="/matches">Matches</Link></li> 
                             <li><a href="#">Tournaments</a></li> 
                             <li><a href="#">Information</a></li> 
                         </ul>

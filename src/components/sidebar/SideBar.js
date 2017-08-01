@@ -12,3 +12,5 @@ class SideBar extends Component {
         return (<div className='side-bar'>123</div>)
     }
 }
+
+export default SideBar;

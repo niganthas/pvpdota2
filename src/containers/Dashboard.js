@@ -7,9 +7,13 @@ export default class Dashboard extends Component {
         super(props);
     }
 
+    sideBarStatus() {
+        return true
+    }
+
     render() {
         return (
-          <Container title="Dashboard" sidebar={true}>
+          <Container title="Dashboard" sidebar={this.sideBarStatus()}>
             <h1>Dashboard</h1>
           </Container>  
         );

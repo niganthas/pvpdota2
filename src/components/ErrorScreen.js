@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class ErrorScreen extends Comment {
+export default class ErrorScreen extends Component {
     constructor(props) {
         super(props);
     }

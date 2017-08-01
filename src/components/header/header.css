@@ -1,6 +1,7 @@
 .header {
     background: #223;
     padding: 10px 20px;
+    height: 40px;
 }
 
 .header .logo a{

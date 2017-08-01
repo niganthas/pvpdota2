@@ -1,7 +1,8 @@
 .side-bar {
     position: fixed;
-    width: 200px;
-    left: 0;
-    top: 0;
-    background: #111;
+    width: 230px;
+    right: 0;
+    top: 40px;
+    background: #223;
+    bottom: 0;
 }

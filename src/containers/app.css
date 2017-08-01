@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
 .container {
     
 }
@@ -5,3 +10,10 @@
 .inner-container {
     padding: 0 30px;
 }
+
+
+a {
+  color: #cdf;
+  text-decoration: none;
+}
+

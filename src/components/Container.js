@@ -19,8 +19,8 @@ class Container extends Component {
     return (
       <div className="container">
         <Header {...{title}}/>
-          {<ErrorScreen />}
-          {<SideBar />}
+          {error && <ErrorScreen />}
+          {sidebar && <SideBar />}
           <div className="inner-container">
             {children}
           </div>

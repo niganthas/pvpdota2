@@ -13,6 +13,10 @@
     color: #eee;
 }
 
+.header .logo a span {
+    color: #f25b76;
+}
+
 .header nav {}
 .header nav ul {
     padding: 0;
@@ -30,5 +34,5 @@
 }
 
 .header nav ul li a:hover {
-    color: #223
+    color: #f25b76
 }

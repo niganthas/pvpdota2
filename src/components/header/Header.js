@@ -17,7 +17,7 @@ export default class Header extends Component {
             <div className='header-wrp'>
                 <header className='header'>
                     <div className="logo">
-                        <a href="/">pvp</a>
+                        <a href="/">p<span>v</span>p</a>
                     </div>
                     <nav className="top-nav">
                         <ul>

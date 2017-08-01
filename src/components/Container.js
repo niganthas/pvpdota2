@@ -17,11 +17,11 @@ class Container extends Component {
     } = this.props;
 
     return (
-      <div className="container">
+      <div className="main">
         <Header {...{title}}/>
           {error && <ErrorScreen />}
           {sidebar && <SideBar />}
-          <div className="inner-container">
+          <div className={"inner-container" + (sidebar ? ' sidebared' : '')}>
             {children}
           </div>
       </div>

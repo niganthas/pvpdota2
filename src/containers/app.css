@@ -3,17 +3,25 @@
     outline: none;
 }
 
-.container {
-    
-}
-
 .inner-container {
     padding: 0 30px;
 }
 
-
-a {
-  color: #cdf;
-  text-decoration: none;
+.inner-container.sidebared {
+    padding-right: 260px
 }
 
+a {
+  color: #f25b76;
+  text-decoration: none;
+  transition: color 0.3s ease-out
+}
+
+a:hover {
+  color: #f89eae;
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
